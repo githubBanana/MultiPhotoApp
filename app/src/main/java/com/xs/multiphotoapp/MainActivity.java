@@ -57,6 +57,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        final Button mBtnGvShow = (Button) findViewById(R.id.gv_show);
+        mBtnGvShow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,GridViewTestActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

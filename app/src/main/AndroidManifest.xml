@@ -16,7 +16,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".MultiTestActivity"/>
+        <activity android:name=".GridViewTestActivity"/>
+
+
         <activity android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity"/>
+        <activity
+            android:name="com.cy.src.photos.gallery.PhotoViewActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

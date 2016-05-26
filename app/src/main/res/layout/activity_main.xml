@@ -43,4 +43,13 @@
         android:textSize="@dimen/activity_horizontal_margin"
         android:background="?attr/selectableItemBackground"
         android:text="选择多张图片或拍照" />
+
+    <Button
+        android:id="@+id/gv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GridView显示图片  点击查看 支持触摸"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"/>
 </LinearLayout>
